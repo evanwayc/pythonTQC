@@ -1,11 +1,10 @@
-# for i in range(int(input())):
-#     n=str(input())
-#     a = [int(j) for j in list(str(n))] # 將對應的數字轉換成數字串列，例如 11 轉換成 [1, 1]
-#     print("Sum of all digits of "+str(n)+" is "+str(sum(a)))
+# 308 迴圈位數加總
+# 說明:
+# 請使用迴圈敘述撰寫一程式，要求使用者輸入一個數字，此數字代表後面測試資料的數量。
+# 每一筆測試資料是一個正整數（由使用者輸入），將此正整數的每位數全部加總起來。
 
-
-str = input()
-sum = 0
-for i in str:
-    sum += int(i)
-print(sum)
+n = input()
+total = 0
+for i in n:
+    sum += n(i)
+print(total)
